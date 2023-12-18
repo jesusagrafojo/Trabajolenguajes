@@ -1,9 +1,35 @@
 body{
     display: grid;
-    grid-template-columns: repeat(1);
     grid-template-rows: repeat(4,1fr);
 }
-a{text-decoration: none;}
-li{
-   list-style: none;
+header{
+    background-image: url(imagenes/1366_2000.jpg);
+    
+    background-repeat:round;
+    
 }
+ul{
+    display: flex;
+    justify-content: space-between;
+   
+    background: linear-gradient(to top, lime, cyan);
+    height: 100%;
+
+}
+li{display: flex;
+   justify-content:center;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    
+}
+li:hover{
+    background-color: aliceblue;
+}
+a{text-decoration: none;
+    text-align: center;
+    height: 100%;
+    flex-direction:column;
+    align-items: center;
+}
+
