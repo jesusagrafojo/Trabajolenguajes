@@ -1,0 +1,9 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(1);
+    grid-template-rows: repeat(4,1fr);
+}
+a{text-decoration: none;}
+li{
+   list-style: none;
+}
